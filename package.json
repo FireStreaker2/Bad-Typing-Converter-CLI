@@ -1,0 +1,32 @@
+{
+  "name": "bad-typing-converter-cli",
+  "version": "1.0.0",
+  "description": "Bad Typing Converter, but in your terminal! Built using node.js",
+  "main": "./bin/index.js",
+  "bin": {
+    "btcc": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "btcc ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireStreaker2/Bad-Typing-Converter-CLI.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "FireStreaker2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FireStreaker2/Bad-Typing-Converter-CLI/issues"
+  },
+  "homepage": "https://github.com/FireStreaker2/Bad-Typing-Converter-CLI#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "open": "^8.4.2",
+    "openai": "^3.1.0"
+  }
+}

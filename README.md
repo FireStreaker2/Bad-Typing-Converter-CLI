@@ -6,6 +6,7 @@
 * Node.js
 * Git (optional)
 * a brain
+* An OpenAI API Key
 
 ## Method 1
 ```bash

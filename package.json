@@ -1,6 +1,6 @@
 {
   "name": "bad-typing-converter-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bad Typing Converter, but in your terminal! Built using node.js",
   "main": "./bin/index.js",
   "bin": {
